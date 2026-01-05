@@ -200,6 +200,11 @@ sudo: unable to resolve host red-sell: Name or service not known
 **5. 反向代理**
 - 设置反向代理需要设置5173和3005端口的代理，其中3005是/api/
 
+**6. CORS 配置**
+- 设置CORS需要在/server/server.js的第18行中设置
+- 请注意，设置的时候域名结尾不能含有/，比如https://dns.abc.com就行了，如果是https://dns.abc.com/就会错误
+- 修改后，请重新启动服务
+
 ### 日志查看
 ```bash
 # 查看后端日志
