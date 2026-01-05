@@ -188,6 +188,15 @@ CORS_ORIGIN=http://localhost:5173
 - 确认后端服务是否正常运行
 - 清除浏览器缓存重试
 
+**4.其他错误**
+```
+  sudo: unable to resolve host red-sell: Name or service not known
+❌ 后端服务启动失败
+请检查日志: sudo journalctl -u cloudflare-dns-backend -f
+sudo: unable to resolve host red-sell: Name or service not known
+```
+需要你查看sudo nano /etc/hosts中，127.0.1.1后面的是否是你的hostname，如果不是，修改后即可
+
 ### 日志查看
 ```bash
 # 查看后端日志
