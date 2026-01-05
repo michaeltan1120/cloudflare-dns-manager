@@ -17,6 +17,7 @@ cloudflare-dns-manager/
 │   └── ...
 ├── deploy.sh         # 一键部署脚本
 ├── .env.example      # 环境变量模板
+├── manage-production.sh  # 管理工具
 └── README.md
 ```
 
@@ -45,6 +46,7 @@ cloudflare-dns-manager/
 - Vite 构建工具
 - 现代化 UI 组件
 - 响应式设计
+- 默认账号admin，密码admin123（明文保存的）
 
 ## 快速开始
 
