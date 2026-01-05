@@ -14,10 +14,12 @@ const PORT = process.env.PORT || 3005;
 const ACCOUNTS_FILE = path.join(__dirname, 'accounts.json');
 const AUTH_FILE = path.join(__dirname, 'auth.json');
 
-// CORS配置，支持多个来源
+// CORS配置，支持多个来源,这里需要修改成你前端实际访问的网址
 const allowedOrigins = [
   'http://localhost:5173',
   'http://127.0.0.1:5173',
+  'http://www.abc.com',
+  'https://www.abc.com',
   process.env.CLIENT_URL
 ].filter(Boolean);
 
