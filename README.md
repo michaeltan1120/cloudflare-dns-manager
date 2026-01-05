@@ -52,7 +52,7 @@ cloudflare-dns-manager/
 ### 方法一：一键部署（推荐）
 ```bash
 # 克隆或下载项目
-git clone <repository-url>
+git clone https://github.com/michaeltan1120/cloudflare-dns.git
 cd cloudflare-dns-manager
 
 # 给部署脚本执行权限
