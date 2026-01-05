@@ -1,4 +1,4 @@
-# Cloudflare DNS 管理面板
+# Cloudflare DNS 管理面板（多用户多账号）多用户纯属脱裤子放屁
 
 一个基于 Node.js/Express + React 的前后端分离项目，用于管理 Cloudflare DNS 解析记录。
 
